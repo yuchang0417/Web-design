@@ -1,0 +1,32 @@
+<!Doctype html>
+<html>
+<head>
+    <title></title>
+    <style>
+        .class{
+            padding:50px;
+            float:left;
+            text-align: center;
+            border: 1px solid red;
+            background-color: aquamarine;
+        }
+        
+        .error{
+            background-color: red; 
+        }
+        
+        
+    </style>
+    
+</head>
+<body>
+    <div  class="class">Div 1</div>
+    <div  class="class">Div 2</div>
+    <div  class="class" style="background-color: blueviolet">Div 3</div>
+    <div id="id" class="class" >Div 4</div>
+    
+    <script>
+        document.getElementById("id").className += " error"; 
+    </script>
+</body>
+</html>
